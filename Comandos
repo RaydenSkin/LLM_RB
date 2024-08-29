@@ -1,0 +1,18 @@
+sudo apt install neofetch
+neofetch
+curl -fsSL https://ollama.com/install.sh | sh
+ollama "visualizar comandos"
+ollama serve "servidor apirest OLLAMA_HOST:http://127.0.0.1:11434"
+ollama list "ver los modelos acoplados"
+ollama run tinyllama "ejecutamos el modelo descargado"
+crtl-d
+ollama run tinyllama why sky is blue?
+
+ollama pull qwen:0.5by "se descarga sin ejecutarse"
+
+
+objetivo trabajar con api rest
+
+
+
+
